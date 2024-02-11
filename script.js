@@ -123,5 +123,6 @@ void setInterval(() => {
 		`%c *** Clicked 'Create' at ${currentTime()} *** `,
 		logStyle("#7cde6f")
 	);
+	fetch("https://hc-ping.com/c82f820b-5547-46da-9f7d-181c5a90631e")
 	countdown = countdownDuration();
 }, 1000);
